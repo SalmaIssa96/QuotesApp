@@ -1,0 +1,47 @@
+* {
+  font-family: 'Afacad', sans-serif;
+}
+body {
+  background-color: rgba(228, 204, 234, 0.34);
+}
+.header {
+  color: #9c6aa9;
+}
+.quote-card {
+  background-color: rgba(135, 44, 192, 0.15);
+  height: 450px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 25px;
+}
+.new-quote-btn {
+  background-color: rgba(92, 62, 156, 1);
+  color: white;
+  width: 200px;
+}
+.new-quote-btn:hover,
+.btn:first-child:active {
+  background-color: #9c6aa9;
+  color: white;
+}
+.icon-quote-left {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 72px;
+  position: relative;
+  top: -195px;
+  right: 14px;
+}
+
+.icon-quote-right {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 72px;
+  position: relative;
+  top: 241px;
+  right: -14px;
+}
+@media only screen and (max-width: 580px) {
+  .icon-quote-right,
+  .icon-quote-left {
+    display: none;
+  }
+}
